@@ -31,7 +31,9 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I plan to try and pick up Emacs as much as I can. There seems to be a learning curve, but practice makes perfect, so continual use will help reenforce shortcuts and key combo's
+
+I made my decision on Emacs because I wanted something customizable, still being developed, and can be scaled for different languages as the future or coding languages changes.
 
 ---
 
@@ -61,6 +63,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I have used PyCharm to date due to picking things up faster and being able to test code quicker with an IDE. Now that I am a bit more comfortable, I have looked into others and I like how Atom is laid out and will probably transition to using it from now on. I will update with more regarding features, shortcuts and customization when I spend more time with Atom.
 
 ---
