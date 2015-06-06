@@ -40,7 +40,11 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-*REPLACE THIS TEXT WITH YOUR RESPONSE*
+>Python's lambda function is a quick way of creating a short function without coding a fully closed function definition and return. It is used to create quick disposable functions that can be used and then forgotten amidst coding.
+
+> *colors = ["red", "blue", "green", "orange"]*  
+> *for color in sorted(colors, key=lambda color: len(color)):*  
+>     *print(color)*    
 
 ---
 
@@ -49,7 +53,17 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-*REPLACE THIS TEXT WITH YOUR RESPONSE*
+>List comprehensions are ways to construct a list of values using almost direct mathematical formulas in code.
+
+>S = [x**2 for x in range(1,10)]  
+>print S  
+>  
+>T = map(lambda x: x**2, range(1,10))  
+>print T  
+>  
+>squares = map(lambda x: x**2, range(1,10))  
+>U = filter(lambda x: x > 0 and x < 100, squares)  
+>print U  
 
 ---
 
