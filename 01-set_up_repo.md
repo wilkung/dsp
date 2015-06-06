@@ -44,7 +44,7 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
-:stuck_out_tongue_winking_eye:
+>:stuck_out_tongue_winking_eye:
 
 ---
 
