@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I will be using Spyder.  I decided on using Spyder because it came with Anaconda.  Some interesting features include cross platform and open source.  It also has syntax highlighting.
 
 ---
