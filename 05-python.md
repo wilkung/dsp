@@ -18,7 +18,7 @@ These exercises are implemented with doctests, which are runnable tests inside d
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Lists are mutable and tuples are immutable meaning tuples can not be changed.  If entries have different meanings, then tuples should be used.  Tuples work as keys in dictionaries since they are immutable.
+>Lists are mutable and tuples are immutable meaning tuples can not be changed.  If entries have different meanings, then tuples should be used.  Tuples work as keys in dictionaries since they are immutable.
 
 ---
 
@@ -27,12 +27,12 @@ Lists are mutable and tuples are immutable meaning tuples can not be changed.  I
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Lists keep the element's order and sets do not.  Sets require items to be hashable while lists do not.  Sets can't have duplicates, lists can.  
+>Lists keep the element's order and sets do not.  Sets require items to be hashable while lists do not.  Sets can't have duplicates, lists can.  
 
-An example of using a list is for an ordered collection of items like a list of phone numbers of new tenants in a building.
-An example of using a set is for an unordered set of items like the set of all words in a document.
+>An example of using a list is for an ordered collection of items like a list of phone numbers of new tenants in a building.
+>An example of using a set is for an unordered set of items like the set of all words in a document.
 
-Sets are faster when determining if an object is present.   This is because sets are implemented using hashtables.  When objects are added to a set, its position is determined by the hash of added object.  To see if the object exits in the set, the program looks if its at the position determined by its hash.  
+>Sets are faster when determining if an object is present.   This is because sets are implemented using hashtables.  When objects are added to a set, its position is determined by the hash of added object.  To see if the object exits in the set, the program looks if its at the position determined by its hash.  
 
 ---
 
@@ -43,7 +43,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >Lambda functions are functions that are defined with one line.  It is used to defined a function without having to name the function. It is best used for simple functions that are not to be reused to avoid lots of one line functions in the code.
 
-An example of using lambda functions in key argument to sorted function:
+>An example of using lambda functions in key argument to sorted function:
 sorted(sorttuples, key = lamba x:x[1])
 
 ---
