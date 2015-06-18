@@ -84,11 +84,13 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >An example of set comprehension:
 
 >wil = [15,456,5,455,456]
+
 >{x for x in wil if wil.count(x) >=2}
 
 >An example of dictionary comprehension:
 
 >wil = [15,456,5,455,456]
+
 >wilsqr = {x: x**2 for x in wil}
 
 
