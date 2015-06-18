@@ -27,7 +27,12 @@ Lists are mutable and tuples are immutable meaning tuples can not be changed.  I
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists keep the element's order and sets do not.  Sets require items to be hashable while lists do not.  Sets can't have duplicates, lists can.  
+
+An example of using a list is for an ordered collection of items like a list of phone numbers of new tenants in a building.
+An example of using a set is for an unordered set of items like the set of all words in a document.
+
+Sets are faster when determining if an object is present.   This is because sets are implemented using hashtables.  When objects are added to a set, its position is determined by the hash of added object.  To see if the object exits in the set, the program looks if its at the position determined by its hash.  
 
 ---
 
