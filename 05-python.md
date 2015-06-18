@@ -67,6 +67,18 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >list(map((lambda x: x**2), wil))
 
+>Another example is:
+
+>wil=[1,-2,3,-4]
+
+>x = [i for i in wil if i < 0]
+
+>Its equivalent using 'filter' is:
+
+>wil=[1,-2,3,-4]
+
+>list(filter((lambda x: x<0), wil))
+
 
 
 
