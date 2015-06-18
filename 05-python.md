@@ -79,6 +79,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >list(filter((lambda x: x<0), wil))
 
+>There capabilities are equivalent in terms of functionality.  There may be speed advantages using list comprehensions vs. map or filter.  This can be testing using the timeit function.
 
 
 
