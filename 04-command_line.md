@@ -21,7 +21,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
->ls lists items in your current directory. 
+ls lists items in your current directory. 
 
 ls -a option flag lists all files including hidden files starting with '.'
 ls -l lists files using a long list format.
@@ -37,6 +37,6 @@ What does `xargs` do? Give an example of how to use it.
 
 The xargs command is used in with the find and grep commands to divide a large list of arguments into a smaller list received from standard input.
 
-Here is an example of its use that I found:
+Here is an example of its use that I found on stackexchange:
 find /foot/bar/ -name '*.mp4' -print0 | xargs -0 mv -t /some/path
 ---
