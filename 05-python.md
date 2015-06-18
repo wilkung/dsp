@@ -55,11 +55,11 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >List comprehensions are a simplifed way of creating a list instead of using a for loop to do so.
 
-An example is: 
+>An example is: 
 wil=[1,2,3,4]
 x = [i**2 for i in wil]
 
-Its equivalent using 'map' is:
+>Its equivalent using 'map' is:
 wil=[1,2,3,4]
 list(map((lambda x: x**2), wil))
 
