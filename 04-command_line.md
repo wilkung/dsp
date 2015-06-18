@@ -35,6 +35,8 @@ combining -a and -lh is meaningful in that it will give sizes of the hidden file
 
 What does `xargs` do? Give an example of how to use it.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+The xargs command is used in with the find and grep commands to divide a large list of arguments into a smaller list received from standard input.
 
+Here is an example of its use that I found:
+find /foot/bar/ -name '*.mp4' -print0 | xargs -0 mv -t /some/path
 ---
