@@ -44,7 +44,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >Lambda functions are functions that are defined with one line.  It is used to defined a function without having to name the function. It is best used for simple functions that are not to be reused to avoid lots of one line functions in the code.
 
 >An example of using lambda functions in key argument to sorted function:
-sorted(sorttuples, key = lamba x:x[1])
+sorted(sorttuples, key = lamba x:x[1]).  This sorts the tuples by each tuple's 2nd element.
 
 ---
 
