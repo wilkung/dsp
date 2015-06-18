@@ -21,7 +21,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-ls lists items in your current directory. 
+>ls lists items in your current directory. 
 
 ls -a option flag lists all files including hidden files starting with '.'
 ls -l lists files using a long list format.
