@@ -12,22 +12,40 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
+> This is a work in progress:
+
 >ls 	  list directory
+
 >cd	    change directory
+
 >pwd	  show current directy
+
 >mkdir  create new directory
+
 >rm	    delete file
+
 >cp	    copy file
+
 >mv	    rename file
+
 >cat	  puts standard input into file
+
 >more	  shows content of file
+
 >head	  shows top 10 lines of file
+
 >tail	  shows last 10 lines of file
+
 >grep	  search for a pattern in a file
+
 >tar	  creates tar
+
 >gzip	  compresses file and renames it
+
 >Ctrl+C	stops current command
+
 >exit	  logs out of session
+
 
 
 ---
