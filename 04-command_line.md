@@ -58,9 +58,13 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 >ls lists items in your current directory. 
 
 >ls -a option flag lists all files including hidden files starting with '.'
+
 >ls -l lists files using a long list format.
+
 >ls -lh lists files with their size
+
 >combining -a and -lh is meaningful in that it will give sizes of the hidden files as well
+
 
 ---
 
