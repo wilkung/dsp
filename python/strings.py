@@ -8,7 +8,6 @@ def donuts(count):
     form 'Number of donuts: <count>', where <count> is the number
     passed in. However, if the count is 10 or more, then use the word
     'many' instead of the actual count.
-
     >>> donuts(4)
     'Number of donuts: 4'
     >>> donuts(9)
@@ -18,8 +17,14 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    if count > 9:
+        print 'Number of donuts: many'
+    else:
+        print 'Number of donuts: %d' % (count)
 
+donuts(10)
+donuts(3)        
 
 def both_ends(s):
     """
@@ -27,7 +32,6 @@ def both_ends(s):
     2 chars of the original string, so 'spring' yields 'spng'.
     However, if the string length is less than 2, return instead the
     empty string.
-
     >>> both_ends('spring')
     'spng'
     >>> both_ends('Hello')
@@ -37,16 +41,22 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    if len(s)<2:
+        print "''"
+    else:
+        print s[0]+s[1]+s[-2]+s[-1]
+    
+both_ends('wilson')
+both_ends('xyz')
+both_ends('x')    
 
-
-def fix_start(s):
+def fix_start(b):
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
     first char itself. e.g. 'babble' yields 'ba**le' Assume that the
     string is length 1 or more.
-
     >>> fix_start('babble')
     'ba**le'
     >>> fix_start('aardvark')
@@ -56,7 +66,18 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    replace = b[0]
+    u = b[0]    
+    for i in (1,len(b)-1):
+        if b[i] == replace:
+            u += 't'
+        else:
+            u += b[i]
+    print u
+    
+
+fix_start('donut') #this is not working properly and I dont know why
 
 
 def mix_up(a, b):
@@ -64,7 +85,6 @@ def mix_up(a, b):
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
     each string. Assume a and b are length 2 or more.
-
     >>> mix_up('mix', 'pod')
     'pox mid'
     >>> mix_up('dog', 'dinner')
@@ -74,8 +94,11 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    print b[0:2] + a[2:] +" "+ a[0:2] + b[2:]
 
+mix_up('dog','dinner')
+mix_up('gnash', 'sport')
 
 def verbing(s):
     """
@@ -83,7 +106,6 @@ def verbing(s):
     Unless it already ends in 'ing', in which case add 'ly' instead.
     If the string length is less than 3, leave it unchanged. Return
     the resulting string.
-
     >>> verbing('hail')
     'hailing'
     >>> verbing('swiming')
@@ -91,8 +113,18 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    if len(s)>2:
+        if s[-3:] == 'ing':
+            print s+'ly'
+        else:
+            print s+'ing'
+    else:
+        print s
 
+verbing('hail')
+verbing('swiming')
+verbing('do')
 
 def not_bad(s):
     """
@@ -101,7 +133,6 @@ def not_bad(s):
     'not'...'bad' substring with 'good'. Return the resulting string.
     So 'This dinner is not that bad!' yields: 'This dinner is
     good!'
-
     >>> not_bad('This movie is not so bad')
     'This movie is good'
     >>> not_bad('This dinner is not that bad!')
@@ -111,7 +142,19 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    if 'not' in s and 'bad' in s and s.index('not') < s.index('bad'):
+        nott = s.index('not')
+        bad = s.index('bad')
+        if nott < bad:
+            print s[:nott] + 'good' + s[(bad+3):]
+    else:
+        print s
+
+not_bad('This movie is not so bad')
+not_bad('This dinner is not that bad!')
+not_bad('This tea is not hot')
+not_bad("It's bad yet not")
 
 
 def front_back(a, b):
@@ -122,7 +165,6 @@ def front_back(a, b):
     'abcde', the front half is 'abc', the back half 'de'. Given 2
     strings, a and b, return a string of the form a-front + b-front +
     a-back + b-back
-
     >>> front_back('abcd', 'xy')
     'abxcdy'
     >>> front_back('abcde', 'xyz')
@@ -130,4 +172,26 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+#    raise NotImplementedError
+    if len(a)%2.0 == 1: #odd
+        end = (len(a)/2) + 1
+        afront = a[:end]
+        aback = a[end:]
+    else:
+        end = (len(a)/2)
+        afront = a[:end]
+        aback = a[end:]
+    if len(b)%2.0 == 1: #odd
+        end = (len(b)/2) + 1
+        bfront = b[:end]
+        bback = b[end:]
+    else:
+        end = (len(b)/2)
+        bfront = b[:end]
+        bback = b[end:]
+    print afront + bfront + aback + bback        
+        
+
+front_back('abcd', 'xy')
+front_back('abcde', 'xyz')
+front_back('Kitten', 'Donut')
