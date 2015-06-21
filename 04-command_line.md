@@ -73,8 +73,6 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
->Need to redo answer:
-
 >xargs is used to execute commands using standard input arguements
 
 >Here is an example of its use that I found on stackexchange:
