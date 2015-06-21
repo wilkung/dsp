@@ -75,12 +75,7 @@ What does `xargs` do? Give an example of how to use it.
 
 >Need to redo answer:
 
->Reshama's tip:  
->xargs is a command used to execute commands based on arguments from standard input
-> Good source: http://bencane.com/2012/08/13/xargs-build-and-execute-commands-with-arguments-from-standard-input/
-
->Answwer (need to redo):
->The xargs command is used in with the find and grep commands to divide a large list of arguments into a smaller list received from standard input.
+>xargs is used to execute commands using standard input arguements
 
 >Here is an example of its use that I found on stackexchange:
 >find /foot/bar/ -name '*.mp4' -print0 | xargs -0 mv -t /some/path
