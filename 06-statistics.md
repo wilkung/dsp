@@ -39,6 +39,6 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 How do frequentist and Bayesian statistics compare?
 
-In order to estimate probabilities, frequentists use available data to estimate probabilities.  Bayesians estimate probabilities by also use prior beliefs in addition to observed data.
+>In order to estimate probabilities, frequentists use available data to estimate probabilities.  Bayesians estimate probabilities by also use prior beliefs in addition to observed data.
 
 ---
