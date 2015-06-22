@@ -27,12 +27,8 @@ Communicate the problem, how you solved it, and the solution, within each of the
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin?
 
->Statistics found on the internet:
-
 >The likelihood of having identical twins is about one in 250.
-
 >Twins, triplets and more (multiple births) account for about three per cent (one in 62) of all babies.
-
 > Therefore the likelihood that a twin is an identical twin is (1/250)/(1/(62*2)) = 49.6%
 
 ---
