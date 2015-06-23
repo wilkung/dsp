@@ -9,8 +9,7 @@ Cohen's d was calculated to be -0.0690 indicating that the birth weight differen
 
 
 Code:
-```
-python
+```python
 
 import nsfg
 import matplotlib.pyplot as plt
