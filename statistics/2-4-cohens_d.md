@@ -13,7 +13,7 @@ Code:
 
 import nsfg
 import matplotlib.pyplot as plt
-from numpy import mean, std # version >= 1.7.1 && <= 1.9.1
+from numpy import mean, std
 from math import sqrt
 
 df = nsfg.ReadFemPreg()
