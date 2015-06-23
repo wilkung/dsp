@@ -9,6 +9,8 @@ Cohen's d was calculated to be -0.0690 indicating that the birth weight differen
 
 
 Code:
+```
+python
 
 import nsfg
 import matplotlib.pyplot as plt
@@ -38,3 +40,4 @@ firstbirthlbslistclean = [x for x in firstbirthlbslist if str(x) != 'nan']
 nonfirstbirthlbslistclean = [x for x in nonfirstbirthlbslist if str(x) != 'nan']
 
 print('Cohen_d: %.4f' % cohen_d(firstbirthlbslistclean, nonfirstbirthlbslistclean))
+```
