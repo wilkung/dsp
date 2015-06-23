@@ -18,7 +18,6 @@ print df
 groupbypregordr = df.groupby('pregordr')
 groupbypregordr['totalwgt_lb'].describe()
 groupbypregordrmean = groupbypregordr['totalwgt_lb'].mean()
-#matplotlib.style.use('ggplot')
 
 plt.figure()
 groupbypregordrmean.plot(kind='bar'); plt.axhline(0, color='k')
