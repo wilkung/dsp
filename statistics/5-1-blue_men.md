@@ -6,7 +6,7 @@
 
 >Code:
 
-```
+```python
 import scipy.stats
 
 mu = 178
