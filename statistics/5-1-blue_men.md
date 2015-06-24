@@ -1,6 +1,6 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
-> solution is in chap05ex
+>Solution is in chap05ex
 
 >In order to calculate the percentage of population the population that can join the Blue Man Group, we convert the min and max height to cms.  Then we convert that to standard deviations from mean.  Finally using the SD from mean, we use the CDF function to calculate the population to the left of the SD from mean.  The difference is the percentage of male population that can join the BMG. This is approximately 51%.
 
