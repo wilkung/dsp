@@ -1,5 +1,7 @@
 [Think Stats Chapter 6 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2007.html#toc60) (household income)
 
+>This exercise asks us to use provided income data and run some statistics on a sample of the data.
+
 **Results**
 >10**6 upperbound
 
@@ -16,6 +18,8 @@
 >pearson skewness: 0.39 
 
 >percent below mean: 0.86
+
+>With a higher upper bound, median stays the same.  Mean increases, skewness increases and std increases.  Pearson skewness drops.  Percent below mean increases.
 
 **Code**
 
