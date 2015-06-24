@@ -1,18 +1,20 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-The problem asks us to analyze data to determine if there is a difference in birth weight of first borns versus non first borns.
+**Need to insert one chart*
 
-We can see if there is a difference by averaging birth weight for first, second, third borns, and so on.  To visually see the averages, I plot the averages by birth order in a bar chart.  
+>The problem asks us to analyze data to determine if there is a difference in birth weight of first borns versus non first borns.
 
-[insert bar chart]
+>We can see if there is a difference by averaging birth weight for first, second, third borns, and so on.  To visually see the averages, I plot the averages by birth order in a bar chart.  
 
-Initially, we see a pattern of inreasing weight with higher birth order, so first borns tend to be lighter at birth.  To see if the difference between first borns and non first borns are statistically difference, I calculate cohen's d between first born birth weight and non first born birth weights.
+>[insert bar chart]
 
-Cohen's d was calculated to be -0.0690 indicating that the birth weight difference is very small.
+>Initially, we see a pattern of inreasing weight with higher birth order, so first borns tend to be lighter at birth.  To see if the difference between first borns and non first borns are statistically difference, I calculate cohen's d between first born birth weight and non first born birth weights.
+
+>Cohen's d was calculated to be -0.0690 indicating that the birth weight difference is very small.
 
 
 
-Code:
+>Code:
 ```python
 
 import nsfg
