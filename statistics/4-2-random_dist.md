@@ -2,7 +2,7 @@
 
 >My solution is in chap04ex.ipynb
 
-I generate 1000 randomly generated numbers from 0 to 1.  Then I plot both PDF and CDF.  The PDF and CDF show that the distribtuion is uniform.
+>I generate 1000 randomly generated numbers from 0 to 1.  Then I plot both PDF and CDF.  The PDF and CDF show that the distribtuion is uniform.
 
 ```
 import random
