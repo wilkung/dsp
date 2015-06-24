@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-**Need to insert one chart*
+**Need to insert one chart**
 
 >The problem asks us to analyze data to determine if there is a difference in birth weight of first borns versus non first borns.
 
