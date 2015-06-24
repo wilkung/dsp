@@ -4,6 +4,8 @@
 
 >In order to calculate the percentage of population the population that can join the Blue Man Group, we convert the min and max height to cms.  Then we convert that to standard deviations from mean.  Finally using the SD from mean, we use the CDF function to calculate the population to the left of the SD from mean.  The difference is the percentage of male population that can join the BMG. This is approximately 51%.
 
+>Code:
+
 ```
 import scipy.stats
 
