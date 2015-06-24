@@ -2,6 +2,7 @@
 
 >My solution is in chap04ex.ipynb
 
+
 ```
 import random
 %matplotlib inline
