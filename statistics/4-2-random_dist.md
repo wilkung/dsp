@@ -1,5 +1,7 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
+**Need to insert 2 graphs**
+
 >My solution is in chap04ex.ipynb
 
 >I generate 1000 randomly generated numbers from 0 to 1.  Then I plot both PDF and CDF.  The PDF and CDF show that the distribtuion is uniform.
@@ -26,6 +28,8 @@ import thinkplot
 rn_cdf = thinkstats2.Cdf(randnums)
 thinkplot.Cdf(rn_cdf)
 thinkplot.Show(xlabel='Random Number 0 to 1', ylabel='CDF')
+
+#insert graph
 
 ```
 
