@@ -6,7 +6,7 @@
 
 >I generate 1000 randomly generated numbers from 0 to 1.  Then I plot both PDF and CDF.  The PDF and CDF show that the distribtuion is uniform.
 
-```
+```python
 import random
 %matplotlib inline
 randnums=[(random.random()) for i in xrange(1000)]
