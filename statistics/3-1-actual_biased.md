@@ -5,6 +5,7 @@
 >My solution in chap03ex.ipynb
  
 >Code:
+
 ```
 %matplotlib inline
 
@@ -62,3 +63,4 @@ print('mean of actual pmf:', pmf.Mean())
 print('mean of biased pmf', biased_pmf.Mean())
 
 #('mean of biased pmf', 2.4036791006642821)
+```
