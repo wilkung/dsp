@@ -2,13 +2,19 @@
 
 **Results**
 >10**6 upperbound
->median, mean, skewness, std: 51226.45, 74278.71, 4.95, 93946.93 :
+
+>median, mean, skewness, std: 51226.45, 74278.71, 4.95, 93946.93
+
 >pearson skewness: 0.74 
+
 >percent below mean: 0.66 
 
 >10**7 upperbound
+
 >median, mean, skewness, std: 51226.45, 124267.40, 11.60, 559608.50 :
+
 >pearson skewness: 0.39 
+
 >percent below mean: 0.86
 
 **Code**
