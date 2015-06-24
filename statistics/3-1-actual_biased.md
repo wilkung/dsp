@@ -8,7 +8,7 @@
  
 >Code:
 
-```
+```python
 %matplotlib inline
 
 import chap01soln
