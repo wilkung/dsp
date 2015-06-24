@@ -1,5 +1,7 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
+>My solution is in chap04ex.ipynb
+
 ```
 import random
 %matplotlib inline
