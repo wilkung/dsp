@@ -19,7 +19,7 @@
 
 >percent below mean: 0.86
 
-**With a higher upper bound, median stays the same.  Mean increases, skewness increases and std increases.  Pearson skewness drops.  Percent below mean increases.
+**With a higher upper bound, median stays the same.  Mean increases, skewness increases and std increases.  Pearson skewness drops.  Percent below mean increases.**
 
 **Code**
 
