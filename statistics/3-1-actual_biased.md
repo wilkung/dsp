@@ -2,9 +2,9 @@
 
 >Using the data, we plot the actual and biased distribution of household size.  Then we compute the actual mean and biased mean.  I compute the actual mean to be 1.02 and the biased mean to be 2.4.  This bias arises because there is an inherent bias to ask more people who comes from larger households since there are more people coming from larger households than smaller households.
 
-My solution in chap03ex.ipynb
+>My solution in chap03ex.ipynb
  
-Code:
+>Code:
 ```
 %matplotlib inline
 
