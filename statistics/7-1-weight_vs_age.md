@@ -7,9 +7,9 @@
 [insert graph]
 [insert graph]
 
-The scatterplot shows that there is little to no relationship between age and birth weight.
+>The scatterplot shows that there is little to no relationship between age and birth weight.
 
-The percentiles of birth weight vs. age shows that as the age of the mother increases, the birth weight increases as well.
+>The percentiles of birth weight vs. age shows that as the age of the mother increases, the birth weight increases as well.
 
 >Pearsons Correlation: 0.069
 
