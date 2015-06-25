@@ -1,5 +1,7 @@
 [Think Stats Chapter 6 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2007.html#toc60) (household income)
 
+>Solution in StatsEx05.py
+
 >This exercise asks us to use provided income data and run some statistics on a sample of the data. It also asks us to see what happens to the statistics when the upper bound assumed changes.
 
 **Results**
