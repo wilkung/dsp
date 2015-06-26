@@ -6,6 +6,7 @@
 Repeat the experiment with a few different values of n and make a plot of standard error versus n.
 
 >Plot of sampling distrution of Estimate L:
+
 [insert plot]
 
 >For lambda = 2 and sample size of 10 with 1000 iteration, stderr = 0.76 and 90% CI is [1.26, 3,58]:
@@ -33,6 +34,7 @@ Repeat the experiment with a few different values of n and make a plot of standa
 >90% confidence interval (1.9659118554250645, 2.032861426132309)
 
 >As the sample size increases, stderr decreases as expected:
+
 >[insert plot]
 
 **Code:**
