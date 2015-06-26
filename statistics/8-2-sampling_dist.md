@@ -1,5 +1,29 @@
 [Think Stats Chapter 8 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77) (scoring)
 
+For lambda = 2 and sample size of 10:
+
+**Results of sampling of exponential distribution:**
+
+n=10
+standard error 0.76351438241
+mean of lamhat: 2.13857883473
+90% confidence interval (1.2562848678552347, 3.5845545120660773)
+
+n=100
+standard error 0.200277623043
+mean of lamhat: 2.00894674687
+90% confidence interval (1.6967436312201396, 2.3496401715717172)
+
+n=1000
+standard error 0.0602587918967
+mean of lamhat: 1.99990213082
+90% confidence interval (1.9053269963264716, 2.1034847916420327)
+
+n=10000
+standard error 0.0206176694726
+mean of lamhat: 1.99977525212
+90% confidence interval (1.9659118554250645, 2.032861426132309)
+
 **Code:**
 ```python
 from __future__ import print_function
@@ -9,7 +33,6 @@ import thinkplot
 import matplotlib.pyplot as plt
 
 import math
-import random
 import numpy as np
 
 
