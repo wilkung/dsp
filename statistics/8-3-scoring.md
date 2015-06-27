@@ -25,7 +25,6 @@ Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2
 >**Code**
 
 ```python
----
 
 import thinkstats2
 import thinkplot
