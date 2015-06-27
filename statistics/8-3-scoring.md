@@ -22,6 +22,9 @@ Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2
 
 >As lam increases, sampling error increases as well.
 
+>**Distribution of Goals:**
+>[insert plot]
+
 >**Code**
 
 ```python
