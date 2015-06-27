@@ -17,7 +17,7 @@ Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2
 '''
 
 
-**Code***
+**Code**
 
 '''python
 ---
