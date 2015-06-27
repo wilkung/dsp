@@ -24,7 +24,7 @@ Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2
 
 >**Code**
 
-'''python
+```python
 ---
 
 import thinkstats2
@@ -66,4 +66,4 @@ def GoalsDist(lam=5, n=10000):
     thinkplot.Show()
         
 GoalsDist()
-'''
+```
