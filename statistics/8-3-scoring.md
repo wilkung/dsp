@@ -2,6 +2,8 @@
 
 Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77)
 
+>**Results**
+
 >This way of making an estimate is unbiased. 
 
 >lambda=2
@@ -19,10 +21,8 @@ Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2
 >('Mean Error of Goals in Game', -0.047199999999999999)
 
 >As lam increases, sampling error increases as well.
-'''
 
-
-**Code**
+>**Code**
 
 '''python
 ---
