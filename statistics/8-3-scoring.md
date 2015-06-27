@@ -2,15 +2,20 @@
 
 Problem: [Think Stats Chapter 8 Exercise 3](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77)
 
->This way of making an estimate unbiased. 
+>This way of making an estimate is unbiased. 
 
 >lambda=2
+
 >Distribution of Simulated Goals per Game
+
 >('RMSE', 1.409432509913121)
+
 >('Mean Error of Goals in Game', -0.0041000000000000003)
  
 >lambda=5
+
 >('RMSE', 2.2405802819805407)
+
 >('Mean Error of Goals in Game', -0.047199999999999999)
 
 >As lam increases, sampling error increases as well.
